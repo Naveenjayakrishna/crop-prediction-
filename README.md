@@ -1,5 +1,6 @@
 Import numpy as np
 Import matplotlib.pyplot as mtp
+
 Import pandas as pd
 Data_set=pd.read_csv(“/content/sample_data/Crop_recommendation.csv”)
 X=data_set.iloc[:,:-1].values
